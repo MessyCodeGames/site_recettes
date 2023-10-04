@@ -1,0 +1,180 @@
+
+* {
+    overflow: auto;
+}
+
+body {
+    background-color: pink;
+    font-family: Arial;
+}
+
+p.categorie {
+    background-color: black;
+    color: orangered;
+    display: inline-block; 
+    padding: 10px 20px;
+    
+    margin-top: -25px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 22px;
+
+    border-radius: 25px;
+   
+    
+}
+
+div.categorie {
+    margin-bottom: 0px;
+    margin-top: -25px;
+    overflow: visible;
+   
+}
+
+div.contenu {
+    background-color: white;
+    margin: 50px 10% 50px 10%;
+    padding: 0px 30px 30px 30px;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2); /*x offset, y offset, blur radius, spread radius, then color*/
+
+    overflow: visible;
+
+}
+
+h1.titreRecette {
+    text-align: center;
+    
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p.description {                
+    max-width: 600px;                
+    display: inline-block;
+    font-size: 16px;              
+}
+
+.centre {
+    text-align: center;
+    width: 100%;
+}
+
+div.lineSep {
+    background-color: black;
+    height: 1px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.tableInsidePicture {
+    position: absolute;
+    bottom: 16px;
+    width: 100%;
+    color: black;
+    background-color: #FFC0CBC0;
+    height: 60px;                
+}            
+
+table.tableInsidePicture td { /* Ici on ne choisit que les td à l'intérieur de notre table*/
+    text-align: center;
+    font-size: 16px;
+    vertical-align: top;
+}
+
+table.tableInsidePicture th { /* Ici on ne choisit que les th */
+    text-align: center;
+    font-size: 18px;
+    vertical-align: bottom;
+    padding-bottom: 4px;
+}
+
+img.tableInsidePicture {
+    display: block;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 200px;
+    background-color: lightpink;
+}
+
+div.tableInsidePicture {
+    position : relative; 
+    min-width: 324px;               
+}
+
+div.colonne {
+    width: 45%;
+}
+
+div.colonne h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border-bottom: 5px solid #FFC0CB;
+    padding-bottom: 10px;
+}
+
+div.colonne1 {
+    
+    color: black;    
+    display: inline-block;
+    margin-right: 5%;
+    
+}
+
+div.colonne2 {
+    float: right; /*Signifie "affiche toi à droite yo"*/
+    
+}
+
+img.pngInTableSmall {
+    display: block;
+    max-height: 200px;    
+    min-height: 200px;
+    
+}
+
+div.ingredients p {
+    text-align: center;
+    border: 2px solid pink;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+table.preparation td {
+    vertical-align: top;
+}
+
+table.preparation td.textTable {
+    padding-left: 10px;
+}
+
+table.preparation p.numero {
+    background-color: pink;
+    color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 3px;
+    box-sizing: border-box;
+    border-radius: 50%; /* Pour obtenir un cercle*/
+    margin: 0px;   
+    vertical-align: top;   
+
+}
+
+table.preparation tr {
+    height: 50px; /*dans un tr, fonctionne comme un min height*/
+}
+
+div.colonnades {
+    overflow: auto;
+}
+
